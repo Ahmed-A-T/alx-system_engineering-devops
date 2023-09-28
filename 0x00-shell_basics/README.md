@@ -7,3 +7,5 @@ This Script Displays the contents list of your current directory.
 # 2-bring_me_home
 This Script changes the working directory to the user’s home directory.
 
+# 3-listfiles
+This Script Displays current directory contents in a long format
