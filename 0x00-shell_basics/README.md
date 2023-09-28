@@ -33,3 +33,6 @@ The Script Delete the directory my_first_directory that is in the /tmp directory
 
 # 10-back
 script that changes the working directory to the previous one
+
+# 11-lists
+script that lists all files including hidden files with a long format for the current directory and the parent of the working directory and the /boot directory
