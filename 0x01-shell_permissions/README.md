@@ -31,3 +31,8 @@ Write a script that sets the permission to the file hello as follows:
 
 # 9. John Doe
 Write a script that sets 753 permissions to file hello
+
+# 10. Look in the mirror
+a script that sets the mode of the file hello the same as olleh’s mode.
+
+
