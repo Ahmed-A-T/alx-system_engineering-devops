@@ -39,3 +39,6 @@ script that lists all files including hidden files with a long format for the cu
 
 # 12-file_type
 script that prints the type of the file named iamafile the file iamafile is located inside /tmp directory
+
+# 13-symbolic_link
+Script that create a symbolic link to /bin/ls, named __ls__ the symbolic link will created in current directory
