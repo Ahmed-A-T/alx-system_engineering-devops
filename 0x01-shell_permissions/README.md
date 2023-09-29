@@ -35,4 +35,5 @@ Write a script that sets 753 permissions to file hello
 # 10. Look in the mirror
 a script that sets the mode of the file hello the same as olleh’s mode.
 
-
+# 11. Directories
+a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
