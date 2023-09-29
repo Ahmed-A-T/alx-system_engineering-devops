@@ -36,3 +36,6 @@ script that changes the working directory to the previous one
 
 # 11-lists
 script that lists all files including hidden files with a long format for the current directory and the parent of the working directory and the /boot directory
+
+# 12-file_type
+script that prints the type of the file named iamafile the file iamafile is located inside /tmp directory
