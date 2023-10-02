@@ -29,3 +29,8 @@
 
 ##9. Duplicate last line
 *A Script that duplicates the last line of the file iacta
+
+##10. No more javascript
+*A Script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
+
+
