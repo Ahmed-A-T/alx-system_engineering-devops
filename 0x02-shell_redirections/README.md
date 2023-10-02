@@ -17,3 +17,6 @@
 
 ##5. I'd prefer the first ones actually
 *A Script that display the first 10 lines of /etc/passwd
+
+##6. Line #2
+*A Script that displays the third line of the file iacta.
