@@ -8,3 +8,6 @@
 
 ##2. Let's display a file
 *A script that display the content of the /etc/passwd file.
+
+##3. What about 2?
+*A Script that display the content of /etc/passwd and /etc/hosts
