@@ -71,3 +71,6 @@
 
 #20. Without C, you would live in hiago
 *A script that removes all letters c and C from input.
+
+#21. esreveR
+*A script that reverse its input.
