@@ -43,3 +43,9 @@
 **Requirements:
 ***One file per line
 ***Sorted from the newest to the oldest
+
+#13. Being unique is better than being perfect
+*A Script that takes a list of words as input and prints only words that appear exactly once.
+**Input format: One line, one word
+**Output format: One line, one word
+**Words should be sorted
