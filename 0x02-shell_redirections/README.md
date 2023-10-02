@@ -5,3 +5,6 @@
 
 ##1. Confused smiley
 *A script that displays a confused smiley "(Ôo)'.
+
+##2. Let's display a file
+*A script that display the content of the /etc/passwd file.
