@@ -11,3 +11,6 @@
 
 ##3. What about 2?
 *A Script that display the content of /etc/passwd and /etc/hosts
+
+##4. Last lines of a file
+*A Script that display the last 10 lines of /etc/passwd
