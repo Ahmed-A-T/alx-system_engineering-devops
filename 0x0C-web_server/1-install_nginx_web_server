@@ -1,12 +1,34 @@
 #!/usr/bin/env bash
 # This script installs a nginx web server
 
-sudo apt update
-sudo apt install nginx -y
-sudo ufw allow 22
-sudo ufw allow 80
-sudo ufw --force enable
-sudo ufw status
-systemctl status nginx
-echo 'Hello World!' | sudo tee /var/www/html/index.nginx-debian.html > /dev/null
-sudo service nginx restart
+# Update package index and install nginx
+apt-get update
+apt-get install -y nginx
+
+# Configure Nginx to listen on port 80
+echo "server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
+
+    root /var/www/html;
+    index index.html index.htm index.nginx-debian.html;
+
+    server_name _;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}" > /etc/nginx/sites-available/default
+
+# Restart Nginx without using systemctl
+service nginx restart
+
+# Create index.html with "Hello World!"
+echo "Hello World!" > /var/www/html/index.html
+
+# Check if Nginx is running
+nginx_process=$(ps aux | grep -v grep | grep nginx)
+if [ -z "$nginx_process" ]; then
+    echo "Nginx is not running. Please check the logs in /var/log/nginx/ for more details."
+    exit 1
+fi
