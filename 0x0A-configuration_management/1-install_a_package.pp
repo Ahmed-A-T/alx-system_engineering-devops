@@ -3,5 +3,5 @@
 package { 'flask':
   ensure   => '2.1.0',
   provider => 'pip3',
-  command => 'pip install -U Flask'
+  command => 'pip install -U Flask',
 }
