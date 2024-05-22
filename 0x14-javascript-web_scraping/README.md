@@ -110,6 +110,7 @@ Write a script that prints the title of a Star Wars movie where the episode numb
 * GitHub repository: `alx-higher_level_programming`
 * Directory: `0x14-javascript-web_scraping`
 * File: `3-starwars_title.js`
+---
 ## 4. Star wars Wedge Antilles
 Write a script that prints the number of movies where the character “Wedge Antilles” is present.
 
